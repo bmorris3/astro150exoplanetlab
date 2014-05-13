@@ -7,7 +7,7 @@
 
 \newcommand{\myvspace}{\vspace{4mm} \noindent}
 
-\newcommand{\mytitle}[1]{\vspace{3mm} \noindent {\bf #1}~~}
+\newcommand{\question}[1]{\vspace{10mm} \noindent {\bf #1)}~~}
 
 \begin{document}
 %\pagestyle{empty}
@@ -18,13 +18,51 @@
 
 Planets orbiting stars in other solar systems -- called {\bf exoplanets} -- sometimes appear to pass in front of their stars once per orbit. If you could use a super-powerful telescope that could ``zoom in'' far enough, you would be able to see the planet eclipse the star. We don't have telescopes powerful enough to do this, so instead we carefully measure the brightness of the host stars and detect the small decrease in brightness that occurs when the planet blocks out a fraction of the star light once per orbit.  We call these eclipses {\bf transit} events, and this is how the majority of planets have been discovered to date, largely with NASA's {\it Kepler} spacecraft. 
 
-The amount of light that a planet blocks out is related to how big the planet is. If the planet were the same size (had the same radius) as the star it would block out the star light completely when it passed in front, and if the planet were the size of a piece of dust it wouldn't block out much light at all. This means that we can measure the amount of light 
-
+The amount of light that a planet blocks out is related to how big the planet is. If the planet were the same size (had the same radius) as the star it would block out the star light completely when it passed in front, and if the planet were the size of a piece of dust it wouldn't block out much light at all. This means that we can measure the ratio of the radius of the planet to the radius of the star by measuring how much light is blocked out: 
+\begin{equation}
+\mathrm{Change~in~brightness} = \left( \frac{\mathrm{Radius~of~the~planet}}{\mathrm{Radius~of~the~star}} \right)^2 \label{eqn:depth}
+\end{equation}
+Now assume that we measured the brightness of a star that has the same mass and radius as the Sun and found the following transit events:
 \begin{figure}[h!]
 \centering
+{\bf Transit Detections} \\
 \includegraphics[scale=0.5]{plots/faketransit.pdf}
 %\vspace{-5mm}
 %\caption{Words words words}
 \end{figure}
+
+\question{1} Record the change in brightness of the star during each transit event in the data table. 
+
+\question{2} We want to measure the radius of each planet from the brightness data, so we need to rearrange Equation \ref{eqn:depth} like so:
+\begin{equation}
+\mathrm{Radius~of~the~planet} = \left( \mathrm{Radius~of~the~star} \right) \times \sqrt{\mathrm{Change~in~brightness}}
+\end{equation}
+If the star, just like the Sun, has a radius 109$\times$ larger than the radius of the Earth, then we can use this simplified equation:
+\begin{equation}
+\mathrm{Radius~of~the~planet~[in~Earth~radii]} = 109R_\oplus  \times \sqrt{\mathrm{Change~in~brightness}} \label{eqn:radius}
+\end{equation}
+Use Equation \ref{eqn:radius} to find the radius of planets ``b'' and ``c'' that we discovered. 
+
+\question{3} By comparing the radii of these exoplanets with the radii of planets in our solar system (Earth's radius = $1 R_\oplus$, Jupiter's radius = $11 R_\oplus$), record in the table for each planet whether you think it is gaseous like Jupiter or rocky like the Earth.
+
+\question{4} By noticing the periods of each planet recorded for you in the table (how long it takes for the dip in brightness pattern to repeat), as well as the radius of each planet, make an argument for which planet you'd prefer to look for life on, and why.
+\vspace{6 cm}
+
+\question{5} At least one of your planets should be a rocky planet. Let's assume that the solar system that you are looking at formed at the same time as our solar system 4.5 billion years ago. Do you expect this rocky planet to currently have geological activity, or would it have entered its big chill phase? Explain.
+\vspace{6 cm}
+
+
+
+\vspace{3cm}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l |c |c| c| c|}
+\hline
+Planet & Period & Change in host & Radius of & Gaseous or   \\
+ & (days) & star brightness  &  exoplanet    & Rocky? \\ \hline
+b & 10 & & & \\ \hline
+c & 300 & & & \\ \hline
+\end{tabular}
+\end{table}
 
 \end{document}
