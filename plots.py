@@ -46,6 +46,9 @@ for i in range(len(depths)):
     ax[i].set_ylim([1-2*depths[i], 1+depths[i]])
     ax[i].get_yaxis().get_major_formatter().set_useOffset(False)
     ax[i].grid()
-fig.savefig('plots/faketransit.pdf',bbox_inches='tight')
+
 outfile.close()
+
+fig.subplots_adjust(wspace=0.25)
+fig.savefig('plots/faketransit.pdf',bbox_inches='tight')
 plt.show()
