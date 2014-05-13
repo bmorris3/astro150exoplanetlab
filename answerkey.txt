@@ -1,2 +1,2 @@
-Radius of planet b = 15.414928 Earth radii
+Radius of planet b = 3.082986 Earth radii
 Radius of planet c = 1.334972 Earth radii

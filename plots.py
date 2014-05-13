@@ -18,7 +18,7 @@ times = np.linspace(0,1,100)    # times of fake photometric measurements
 names = ['b', 'c']              # name for each planet
 midtransits = [0.5, 0.5]        # time of mid-transit
 durations = [0.3, 0.6]          # duration of the transit event
-depths = [0.02, 0.00015]        # fractional change in flux in transit event
+depths = [0.0008, 0.00015]        # fractional change in flux in transit event
 noises = 0.1*np.array(depths)   # simulated noise factor
 answerkeyname = 'answerkey.txt'
 
