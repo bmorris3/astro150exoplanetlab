@@ -39,7 +39,7 @@ for i in range(len(depths)):
     outfile.write(newline)
     
     ax[i].plot(times, lightcurve, 'k-o')
-    ax[i].set_title('Planet %s' % names[i])
+    ax[i].set_title('Transit of planet %s' % names[i])
     ax[i].set_xlabel('Time (days)')
     ax[i].set_ylabel('Apparent Host-Star Brightness')
     ax[i].set_xlim([np.min(times), np.max(times)])
