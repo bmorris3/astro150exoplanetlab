@@ -53,7 +53,7 @@ for i in range(len(depths)):
     ax.plot(times+1.5*i, lightcurve*100, 'k-'+markers[i])
     annotation = 'Planet %s' % names[i]
     ax.annotate(annotation, (np.mean(times+1.5*i), np.max(lightcurve*100)*1.00001), textcoords='data', \
-    ha='center', va='center',size=18,bbox=dict(fc="w",ec="none",alpha=0.8))
+    ha='center', va='center',size=20,bbox=dict(fc="w",ec="none",alpha=0.8))
 
 #ax.set_ylim([np.min(lightcurves*100)*0.99,100.001])
 
