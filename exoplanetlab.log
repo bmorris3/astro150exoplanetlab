@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  15 MAY 2014 09:33
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  15 MAY 2014 10:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -274,11 +274,11 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package epstopdf Info: Source file: <plots/transit.eps>
-(epstopdf)                    date: 2014-05-15 09:31:30
-(epstopdf)                    size: 6653495 bytes
+(epstopdf)                    date: 2014-05-15 10:10:47
+(epstopdf)                    size: 6724735 bytes
 (epstopdf)             Output file: <plots/transit-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-05-15 09:32:17
-(epstopdf)                    size: 74734 bytes
+(epstopdf)                    date: 2014-05-15 10:11:01
+(epstopdf)                    size: 85978 bytes
 (epstopdf)             Command: <epstopdf --outfile=plots/transit-eps-converted
 -to.pdf plots/transit.eps>
 (epstopdf)             \includegraphics on input line 22.
@@ -287,13 +287,12 @@ Package epstopdf Info: Output file is already uptodate.
 File: plots/transit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/transit-eps-converted-to.pdf>
-<plots/faketransit.pdf, id=2, 868.38332pt x 409.42021pt>
+<plots/faketransit.pdf, id=2, 887.29773pt x 638.58264pt>
 File: plots/faketransit.pdf Graphic file (type pdf)
 
 <use plots/faketransit.pdf>
-Overfull \hbox (7.85728pt too wide) in paragraph at lines 35--37
- [][] 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -301,16 +300,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./plots
-/transit-eps-converted-to.pdf>] [2 <./plots/faketransit.pdf>] [3]
+/transit-eps-converted-to.pdf>] [2 <./plots/faketransit.pdf>] [3] [4]
 (./exoplanetlab.aux) ) 
 Here is how much of TeX's memory you used:
- 2905 strings out of 493747
- 38488 string characters out of 3143546
+ 2903 strings out of 493747
+ 38467 string characters out of 3143546
  109428 words of memory out of 3000000
- 6173 multiletter control sequences out of 15000+200000
+ 6171 multiletter control sequences out of 15000+200000
  7704 words of font info for 28 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,8n,35p,710b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,35p,665b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmex10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsf
@@ -320,10 +319,10 @@ s/cm/cmr8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on exoplanetlab.pdf (3 pages, 174173 bytes).
+Output written on exoplanetlab.pdf (4 pages, 187633 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
